@@ -1,6 +1,6 @@
 import { ImageBackground } from "react-native"
-import { View, Text, ScrollView } from "react-native"
-import { styles } from '../../styles/style'
+import { View, Text } from "react-native"
+import { styles } from './style'
 
 export function Slide2() {
     const Slide2 = require('../../../assets/bg.png')

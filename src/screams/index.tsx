@@ -4,7 +4,7 @@ import { View, Text, ImageBackground, Image, TouchableHighlight, TouchableOpacit
 import { useState, Dispatch, SetStateAction } from "react";
 import { Buttons } from "../../src/components/botoes/botao1/index"
 import { ImageText } from '../../src/components/botoes/botao1/ImageText'
-export function InitialPage() {
+export function PagInicial() {
     const bg = require('../assets/bg.png')    
     const [page, setPage] = useState(0)
     return (

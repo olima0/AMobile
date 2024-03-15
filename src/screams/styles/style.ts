@@ -4,19 +4,6 @@ export const styles = StyleSheet.create({
     container: {
         flex: 1
     },
-    title: {
-        marginTop: 100,
-        alignItems: "center",
-        fontSize: 45,
-        color: "white"
-    },
-    text: {
-        marginTop: 250,
-        marginLeft: 25,
-        alignItems: "center",
-        fontSize: 24,
-        color: "white"
-    },
     SwitchButtonContainer:{
         display: 'flex',
         flexDirection:'row',
@@ -26,8 +13,6 @@ export const styles = StyleSheet.create({
         height:70,
         position:'absolute',
         bottom:50
-
-
     },
     SwitchButton:{
         textAlign:'center',
@@ -39,9 +24,6 @@ export const styles = StyleSheet.create({
         marginLeft:80,
         justifyContent:'center',
         opacity:1,
-        
-        
-        
     },
     Arrow:{
         fontSize:40,
@@ -51,16 +33,12 @@ export const styles = StyleSheet.create({
         padding:0,
         margin:0,
         marginBottom:20,
-        
     },
     SwitchButtonActived:{
-  
     },
      SwitchButtonDisabled:{
     },
-
     background:{
         flex:1, 
     },
-
 })

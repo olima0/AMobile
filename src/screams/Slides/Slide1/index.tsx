@@ -1,8 +1,7 @@
 import { ImageBackground } from "react-native"
-import { View, Text, Image, TouchableHighlight, TouchableOpacity } from "react-native"
-
-import { styles } from '../../styles/style'
-import { useState, Dispatch, SetStateAction } from "react";
+import { View, Text} from "react-native"
+import { styles } from './style'
+import { useState } from "react";
 
     export function Slide1() {
     const [page, setPage] = useState(0)
