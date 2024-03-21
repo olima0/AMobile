@@ -3,56 +3,65 @@ import { StyleSheet }  from 'react-native'
 
 export const styles = StyleSheet.create({
     container: {
-        flex: 1
+        flex: 1,
+        alignItems: "center"
     },
     title: {
-        marginTop: 100,
+      height: "30%",
         alignItems: "center",
+        color: 'white',
+        justifyContent: "center",
+    },
+    titletxt: {
         fontSize: 50,
-        color: 'white'
+        color: "#FFFFFF",
     },
     email: {
-        marginTop: 100,
-        marginRight: 150,
-        alignItems: "center",
         fontSize: 24,
-        color: 'white'
+        color: 'white',
     },
     psw: {
-        marginTop: 5,
-        marginLeft: -130,
         alignItems: "center",
         fontSize: 24,
-        color: 'white'
+        color: 'white',
     },
     box1: {
-        marginLeft: 20,
+      alignItems: "center",
         width: 355,
-        height: 50,
-        borderWidth: 1,
-        borderColor: 'white',
+        height: 60,
         borderRadius: 4,
       },
       box2: {
-        marginLeft: 20,
+        alignItems: "center",
         width: 355,
-        height: 50,
-        borderWidth: 1,
-        borderColor: 'white',
+        height: 60,
+        marginTop: 26,
         borderRadius: 4,
+      },
+      meio: {
+        alignItems: "center",
+        height: "39%",
+        justifyContent: "center",
+        flexDirection: "column",
       },
       box3: {
         marginTop: 20,
-        marginLeft: 120,
         width: 150,
         height: 50,
         borderWidth: 1,
         borderColor: 'white',
         borderRadius: 4,
+        alignItems: "center",
+      },
+      input: {
+          fontSize: 20,
+          borderColor: "white",
+          borderWidth: 1,
+          width: "100%",
+          color: "white",
       },
       textbox: {
         fontSize: 36,
-        marginLeft: 10,
         color: 'white'
       },
     

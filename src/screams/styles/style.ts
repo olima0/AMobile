@@ -33,6 +33,7 @@ export const styles = StyleSheet.create({
         padding:0,
         margin:0,
         marginBottom:20,
+        color: 'white'
     },
     SwitchButtonActived:{
     },
